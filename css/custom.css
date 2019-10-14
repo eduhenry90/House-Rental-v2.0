@@ -1,0 +1,15 @@
+.background-img {
+    background-image: url(../img/background4.jpg);
+    background-size: 100%;
+}
+.jumbotron{
+    padding-top: 25%;;
+}
+.para-center{
+    text-align: center;
+    color: lightcyan;
+
+}
+.head-one {
+    margin-top: -10%;;
+}
