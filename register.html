@@ -60,22 +60,24 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><br>
                         <h3 class="register-heading">Sign Up Form</h3>
+                        <p class="regMessage"></p>
+                        <form method="POST" id="registerForm">
                         <div class="row register-form">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                    <input type="text" id="firstName" class="form-control" placeholder="First Name *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                    <input type="text" id="lastName" class="form-control" placeholder="Last Name *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                    <input type="email" id="email" class="form-control" placeholder="Your Email *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" minlength="7" maxlength="11" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                                    <input type="text" id="phone" minlength="7" maxlength="11" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password *" value="" />
+                                    <input type="password" id="password" class="form-control" placeholder="Password *" value="" />
                                 </div>
                                 <div class="form-group">
                                     <input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
@@ -83,6 +85,7 @@
                                 <input type="submit" class="btnRegister"  value="Register"/>
                             </div>                            
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -90,7 +93,8 @@
 
     </div>
 
-
+    <script src="js/jquery.js"></script>
+    <script src="js/form.js"> </script>
 </body>
   <!-- Footer -->
   <br>
