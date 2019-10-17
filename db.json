@@ -1,12 +1,21 @@
 {
-    "users":[
-        {
-            "firstName":"John",
-            "lastName": "Doe",
-            "email": "john@gmail.com",
-            "phone": "08077624532",
-            "password": ""
-
-        }
-    ]            
+  "users": [
+    {
+      "firstName": "Chinedu",
+      "lastName": "Okorafor",
+      "email": "okoraforchinedu90@gmail.com",
+      "phone": "08062452357",
+      "password": "edu",
+      "id": 1
+    },
+    {
+      "firstName": "Chinedu",
+      "lastName": "Okorafor",
+      "email": "okoraforc0@gmail.com",
+      "phone": "08062452357",
+      "password": "eyfg",
+      "id": 2
+    }
+  ],
+  "buildings": []
 }
